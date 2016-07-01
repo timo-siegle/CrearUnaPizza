@@ -156,16 +156,6 @@
                                     <rect key="frame" x="164" y="72" width="72" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYk-Zp-mbl">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Enviar a la cocina"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="141" y="550" width="119" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="iC9-2H-ZSz" kind="show" identifier="segueFin" id="DTR-U5-6uc"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tamaño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cx-7c-6Bk">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -202,7 +192,7 @@
                                     <rect key="frame" x="152" y="382" width="96" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRF-M9-l9W">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRF-M9-l9W">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -211,7 +201,7 @@
                                     <rect key="frame" x="36" y="182" width="117" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umx-uQ-rSS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umx-uQ-rSS">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -220,7 +210,7 @@
                                     <rect key="frame" x="255" y="182" width="129" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-zr-Fnd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-zr-Fnd">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -229,7 +219,7 @@
                                     <rect key="frame" x="147" y="292" width="106" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkA-O9-a2C">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkA-O9-a2C">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -238,12 +228,43 @@
                                     <rect key="frame" x="45" y="411" width="310" height="21"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="225-Ft-w9k">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="0.039858489439999999" blue="0.1085100577" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="100" y="496" width="201" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEt-Gf-6ue">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Reiniciar">
+                                    <color key="titleColor" red="1" green="0.039858489438034717" blue="0.10851005768671795" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="170" y="562" width="61" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="L8l-cn-eqk" kind="show" identifier="segueReiniciar" id="Vw3-z2-HyU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYk-Zp-mbl">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Enviar a la cocina"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="141" y="525" width="119" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="iC9-2H-ZSz" kind="show" identifier="segueFin" id="DTR-U5-6uc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="CSQ-yf-mWC"/>
-                                <exclude reference="pYk-Zp-mbl"/>
                                 <exclude reference="1cx-7c-6Bk"/>
                                 <exclude reference="B8D-VT-cDN"/>
                                 <exclude reference="Jwy-Xj-kcZ"/>
@@ -252,12 +273,14 @@
                                 <exclude reference="umx-uQ-rSS"/>
                                 <exclude reference="JAH-zr-Fnd"/>
                                 <exclude reference="TkA-O9-a2C"/>
+                                <exclude reference="225-Ft-w9k"/>
+                                <exclude reference="kEt-Gf-6ue"/>
+                                <exclude reference="pYk-Zp-mbl"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="CSQ-yf-mWC"/>
-                                <include reference="pYk-Zp-mbl"/>
                                 <include reference="1cx-7c-6Bk"/>
                                 <include reference="B8D-VT-cDN"/>
                                 <include reference="Jwy-Xj-kcZ"/>
@@ -266,13 +289,18 @@
                                 <include reference="umx-uQ-rSS"/>
                                 <include reference="JAH-zr-Fnd"/>
                                 <include reference="TkA-O9-a2C"/>
+                                <include reference="225-Ft-w9k"/>
+                                <include reference="kEt-Gf-6ue"/>
+                                <include reference="pYk-Zp-mbl"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="enviarLaPizza" destination="pYk-Zp-mbl" id="eQV-Fk-sbu"/>
                         <outlet property="ingredientes" destination="TkA-O9-a2C" id="e89-KX-AOs"/>
                         <outlet property="masa" destination="umx-uQ-rSS" id="7AE-ke-a3o"/>
                         <outlet property="queso" destination="JAH-zr-Fnd" id="nWv-nm-adG"/>
+                        <outlet property="resultado" destination="225-Ft-w9k" id="YCW-9A-Tdt"/>
                         <outlet property="tamano" destination="aRF-M9-l9W" id="KYE-Ns-Jfw"/>
                     </connections>
                 </viewController>
@@ -614,4 +642,7 @@
             <point key="canvasLocation" x="261" y="1078"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Vw3-z2-HyU"/>
+    </inferredMetricsTieBreakers>
 </document>
